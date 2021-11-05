@@ -16,6 +16,7 @@ MARVEL_PRIVATE_KEY = ""
 
 **Select build variants and select debug after updating the file. You may need to toggle to release then back to debug for it to take. 
 
+### LIBRARIES IN USE 
 
 ###Coroutines used to make request to server in a thread like manner
 [Coroutines](https://github.com/Kotlin/kotlinx.coroutines)
@@ -45,3 +46,4 @@ Usage:
 com.github.bumptech.glide:glide:4.12.0
 com.github.bumptech.glide:compiler:4.12.0
 
+### AndroidX and lifecycle aware objects such as LiveData and ViewModel are used
