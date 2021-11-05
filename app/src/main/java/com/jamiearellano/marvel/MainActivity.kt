@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
     val wolverineNullDescription = "85505"
     val venomWithDescription = "64570"
     val venomWithHtmlTagsInDescription = "40651"
-    private val defaultComic = wolverineNullDescription
+    private val defaultComic = venomWithHtmlTagsInDescription
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

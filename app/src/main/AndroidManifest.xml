@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DTCICrossPlatformTest">
+        android:theme="@style/Theme.Marvel">
         <activity
             android:name="com.jamiearellano.marvel.MainActivity"
             android:exported="true">

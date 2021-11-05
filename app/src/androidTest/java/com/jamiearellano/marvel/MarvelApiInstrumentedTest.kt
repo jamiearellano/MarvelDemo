@@ -31,7 +31,7 @@ class MarvelApiInstrumentedTest {
     @Before
     fun verifyAppContext(){
         appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.jamiearellano.dtcicrossplatformtest", appContext.packageName)
+        assertEquals("com.jamiearellano.marvel", appContext.packageName)
     }
 
     @Before
