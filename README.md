@@ -18,18 +18,18 @@ MARVEL_PRIVATE_KEY = ""
 
 ### LIBRARIES IN USE 
 
-###Coroutines used to make request to server in a thread like manner
+### Coroutines used to make request to server in a thread like manner
 [Coroutines](https://github.com/Kotlin/kotlinx.coroutines)
 org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2
 
-###Volley Library is used to make the request to the marvel api
+### Volley Library is used to make the request to the marvel api
 [Volley](https://github.com/google/volley)
 Usage:
 - marvelapi/HttpFactory.kt
 
 com.android.volley:volley:1.2.1
 
-###Moshi API used for mapping json object.
+### Moshi API used for mapping json object.
 [Moshi](https://github.com/square/moshi)
 Usage:
 - marvelapi/AdapterFactory
@@ -38,7 +38,7 @@ Usage:
 com.squareup.moshi:moshi:1.12.0
 com.squareup.moshi:moshi-kotlin-codegen:1.12.0
 
-###Glide API is used to download and render the comic cover to the imageview
+### Glide API is used to download and render the comic cover to the imageview
 [Glide](https://github.com/bumptech/glide)
 Usage:
 - MainActivity.kt
